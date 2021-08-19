@@ -5,7 +5,7 @@ const initialState = {
     error: "",
 };
 
-const EmployeeReducer = (state = initialState, action) => {
+const EmployeeReduce = (state = initialState, action) => {
     switch (action.type) {
         case UT.USER_REQUEST:
             return {
@@ -31,4 +31,4 @@ const EmployeeReducer = (state = initialState, action) => {
     }
 };
 
-export default EmployeeReducer;
+export default EmployeeReduce;

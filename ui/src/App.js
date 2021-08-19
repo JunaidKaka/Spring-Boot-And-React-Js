@@ -19,36 +19,20 @@ const App = () => {
         return "";
     };
 
-    return ( <
-        Router >
-        <
-        NavigationBar / >
-        <
-        Container >
-        <
-        Row >
-        <
-        Col lg = { 12 }
+    return ( <Router >
+        <NavigationBar / >
+        <Container >
+        <Row >
+        <Col lg = { 12 }
         className = { "margin-top" } >
-        <
-        Switch >
-        <
-        Route path = "/"
+        <Switch >
+        <Route path = "/"exact component = { EmployeeList }
+        /> <Route path = "/users"
         exact component = { EmployeeList }
-        /> <
-        Route path = "/users"
-        exact component = { EmployeeList }
-        /> <
-        Route path = "/register"
+        /> <Route path = "/register"
         exact component = { RegisterEmployee }
-        /> < /
-        Switch > <
-        /Col> < /
-        Row > <
-        /Container> <
-        Footer / >
-        <
-        /Router>
+        /> </Switch > </Col> </Row > </Container> <Footer / >
+        </Router>
     );
 };
 
