@@ -1,0 +1,4 @@
+export const USER_REQUEST = "USER_REQUEST";
+export const REQUEST_SUCCESS = "SUCCESS";
+export const REQUEST_FAILURE = "ERROR";
+export const USER_SAVED_SUCCESS = "USER_SAVED_SUCCESS";

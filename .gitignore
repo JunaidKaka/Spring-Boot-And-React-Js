@@ -1,0 +1,29 @@
+# IDEs and editors
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# project files
+*.iml
+.gradle
+.mvn
+local.properties
+.idea
+/ui/dist
+build
+out
+.metadata/
+bin
+package-lock.json
+logs
+node_modules
+/ui/node_modules
+static
+static
