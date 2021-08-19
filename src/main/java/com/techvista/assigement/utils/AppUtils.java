@@ -3,7 +3,7 @@ package com.techvista.assigement.utils;
 import org.springframework.web.bind.annotation.CrossOrigin;
 
 public class AppUtils {
-    public static final String ALLOWED_CROSS_ORIGINS = "http://localhost:3001";
+    public static final String ALLOWED_CROSS_ORIGINS = "http://localhost:3000";
     /**
      * base api url path for rest services
      */

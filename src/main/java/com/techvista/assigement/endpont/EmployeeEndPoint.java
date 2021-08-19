@@ -32,7 +32,6 @@ public class EmployeeEndPoint implements BaseApiEndPoint {
         return new ResponseEntity<>(response, HttpStatus.OK);
     }
 
-
     @GetMapping(path = BASE_URI + "/findAll")
     public ResponseEntity<GenericResponse> getAllEmployees(
             @RequestParam(required = false, defaultValue = "0" , name = "page") Integer pageNo,
